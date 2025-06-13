@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+{% block title %}Experience - Data Analyst Portfolio{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <h1 class="section-title text-center mb-5">Work Experience</h1>
+
+    <!-- Interactive Timeline Visualization -->
+    <div class="mb-5">
+        <div class="card shadow-sm" style="background-color: #a8d0f0; border: none;">
+            <div class="card-body" style="background-color: #a8d0f0; padding: 0;">
+                <div id="experience-timeline-viz" class="timeline-visualization" style="height: 300px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline">
+        <!-- Experience 1: Data Science -->
+        <div class="timeline-item">
+            <h3>Data Science</h3>
+            <p class="timeline-date">May 2025 - July 2025</p>
+            <p class="fw-bold">Infosys</p>
+            <p>Infosys Pragati: Path to Future Cohort is a program by Infosys, for women.</p>
+            <ul>
+                <li>Applying data science techniques to solve real-world business problems</li>
+                <li>Developing machine learning models for predictive analytics</li>
+                <li>Collaborating with cross-functional teams to implement data-driven solutions</li>
+            </ul>
+            <div class="mb-3">
+                <span class="badge bg-primary">Python</span>
+                <span class="badge bg-secondary">Data Science</span>
+                <span class="badge bg-info">Machine Learning</span>
+                <span class="badge bg-success">Data Analysis</span>
+            </div>
+        </div>
+
+        <!-- Experience 2: Data Visualization Intern -->
+        <div class="timeline-item">
+            <h3>Data Visualization Intern</h3>
+            <p class="timeline-date">December 2024 - January 2025</p>
+            <p class="fw-bold">Infosys</p>
+            <p>Implemented PowerBI and Python Streamlit to automate data aggregation, analysis, and visualization.</p>
+            <ul>
+                <li>Cleaned and preprocessed data, improving data quality and reducing processing time by 80%</li>
+                <li>Implemented PowerBI and Python Streamlit to automate data aggregation, analysis, and visualization</li>
+                <li>Designed dashboards, improving decisions and Streamlit UI to raise engagement by 65%</li>
+            </ul>
+            <div class="mb-3">
+                <span class="badge bg-primary">Python</span>
+                <span class="badge bg-secondary">PowerBI</span>
+                <span class="badge bg-info">Streamlit</span>
+                <span class="badge bg-success">Data Analysis</span>
+            </div>
+        </div>
+
+        <!-- Experience 3: Machine Learning Intern -->
+        <div class="timeline-item">
+            <h3>Machine Learning Intern</h3>
+            <p class="timeline-date">September 2023 - December 2023</p>
+            <p class="fw-bold">Compsoft Technologies</p>
+            <p>Engineered machine learning solutions for real-world problems, reducing costs by 80%.</p>
+            <ul>
+                <li>Utilized Python libraries (Pandas, NumPy, Scikit-learn, OpenCV) for data processing, ML modeling, and computer vision</li>
+                <li>Enhanced model accuracy by 90% and reduced processing time by 30%</li>
+                <li>Reduced search time by 80%, saved 50+ hours weekly, and enhanced user experience via automation</li>
+            </ul>
+            <div class="mb-3">
+                <span class="badge bg-primary">Python</span>
+                <span class="badge bg-secondary">Machine Learning</span>
+                <span class="badge bg-info">Computer Vision</span>
+                <span class="badge bg-success">Data Analysis</span>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/experience-timeline.js') }}"></script>
+{% endblock %}

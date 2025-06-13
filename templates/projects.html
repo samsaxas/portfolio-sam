@@ -1,0 +1,147 @@
+{% extends 'base.html' %}
+
+{% block title %}Projects - Data Science Student Portfolio{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <h1 class="section-title text-center mb-5">My Projects</h1>
+
+    <div class="project-categories mb-5">
+        <div class="d-flex justify-content-center flex-wrap">
+            <a href="#machine-learning" class="btn btn-outline-light m-2 category-btn">
+                <i class="fas fa-brain me-2"></i>AIML & Computer Vision
+            </a>
+            <a href="#visualization" class="btn btn-outline-light m-2 category-btn">
+                <i class="fas fa-code me-2"></i>Web Development
+            </a>
+        </div>
+    </div>
+    
+    <div id="machine-learning" class="mb-4 pt-5 mt-5">
+        <h2 class="section-title mb-4">AIML & Computer Vision Projects</h2>
+    </div>
+
+    <div class="row mb-5">
+        <!-- Project 2 - AgriAid -->
+        <div class="col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">AgriAid - Smart Multilingual Agriculture Assistant</h3>
+                    <p class="text-muted">May 2025</p>
+                    <p class="card-text"><strong>Primary Domain: Artificial Intelligence (AI)</strong></p>
+                    <p class="card-text">Developed an AI-powered solution to help farmers optimize crop yields through soil analysis, weather prediction, and personalized recommendations for sustainable farming practices.</p>
+                    <h5>Key Achievements:</h5>
+                    <ul>
+                        <li>Created a machine learning model for crop yield prediction with 92% accuracy</li>
+                        <li>Implemented computer vision for plant disease detection</li>
+                        <li>Developed a user-friendly mobile interface for farmers</li>
+                        <li>Integrated IoT sensors for real-time soil and climate monitoring</li>
+                    </ul>
+                    <h5>Technologies Used:</h5>
+                    <div class="mb-3">
+                        <span class="badge bg-primary">Python</span>
+                        <span class="badge bg-secondary">Machine Learning</span>
+                        <span class="badge bg-info">Computer Vision</span>
+                        <span class="badge bg-warning text-dark">TensorFlow</span>
+                    </div>
+                    <a href="https://github.com/samsaxas/AgriAid" class="btn btn-outline-primary" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 1 - Ink2Deck -->
+        <div class="col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Ink2Deck - Smart Board to Slide Deck Converter</h3>
+                    <p class="text-muted">March 2025</p>
+                    <p class="card-text"><strong>Primary Domain: Computer Vision</strong></p>
+                    <p class="card-text">Developed a Python application to convert handwritten content from whiteboards into professional slide decks (PPT/PDF) using OCR, computer vision, and NLP techniques.</p>
+                    <h5>Key Achievements:</h5>
+                    <ul>
+                        <li>Implemented image processing algorithms to enhance whiteboard content clarity</li>
+                        <li>Integrated OCR technology to recognize handwritten text with 95% accuracy</li>
+                        <li>Developed an intuitive UI for users, increasing productivity</li>
+                        <li>Achieved 95% accuracy in handwriting recognition within the Python-based application</li>
+                    </ul>
+                    <h5>Technologies Used:</h5>
+                    <div class="mb-3">
+                        <span class="badge bg-primary">Python</span>
+                        <span class="badge bg-secondary">OpenCV</span>
+                        <span class="badge bg-info">OCR</span>
+                        <span class="badge bg-success">NLP</span>
+                        <span class="badge bg-warning text-dark">Machine Learning</span>
+                    </div>
+                    <a href="https://github.com/samsaxas/Ink2Deck" class="btn btn-outline-primary" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-5">
+        <!-- Project 3 - Automated Parking System -->
+        <div class="col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Automated Parking System using Machine Learning</h3>
+                    <p class="text-muted">December 2023</p>
+                    <p class="card-text"><strong>Primary Domain: Machine Learning</strong></p>
+                    <p class="card-text">Optimized parking allocation with machine learning algorithms, reducing search time by 35% and enhancing the user experience.</p>
+                    <h5>Key Achievements:</h5>
+                    <ul>
+                        <li>Designed and implemented a parking allocation system using ML</li>
+                        <li>Reduced search time by 35%</li>
+                        <li>Improved user experience through automation</li>
+                        <li>Implemented real-time availability tracking</li>
+                    </ul>
+                    <h5>Technologies Used:</h5>
+                    <div class="mb-3">
+                        <span class="badge bg-primary">Python</span>
+                        <span class="badge bg-secondary">Machine Learning</span>
+                        <span class="badge bg-info">Computer Vision</span>
+                        <span class="badge bg-success">TensorFlow</span>
+                    </div>
+                    <a href="https://github.com/samsaxas/Automated-Parking-System-using-Machine-Learning" class="btn btn-outline-primary" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="visualization" class="mb-4 pt-5 mt-5">
+        <h2 class="section-title mb-4">Web Development Projects</h2>
+    </div>
+
+    <div class="row mb-5">
+        <!-- Project 4 - Online Examination System -->
+        <div class="col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Online Examination System</h3>
+                    <p class="text-muted">September 2024</p>
+                    <p class="card-text"><strong>Primary Domain: Web Development</strong></p>
+                    <p class="card-text">Developed a web-based examination platform that allows students to take tests online while enabling instructors to create exams, manage questions, and view results automatically.</p>
+                    <h5>Key Achievements:</h5>
+                    <ul>
+                        <li>Built user authentication with separate interfaces for students and instructors</li>
+                        <li>Implemented automated grading and instant result generation</li>
+                        <li>Created secure exam environment with time constraints and anti-cheating measures</li>
+                        <li>Managed 1,000+ user accounts with 40% improvement in examination efficiency</li>
+                    </ul>
+                    <h5>Technologies Used:</h5>
+                    <div class="mb-3">
+                        <span class="badge bg-primary">Python</span>
+                        <span class="badge bg-secondary">SQL</span>
+                        <span class="badge bg-info">Web Development</span>
+                        <span class="badge bg-success">Security</span>
+                    </div>
+                    <a href="https://github.com/samsaxas/Online-Examination-System" class="btn btn-outline-primary" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/projects-charts.js') }}"></script>
+{% endblock %}

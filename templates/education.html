@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+
+{% block title %}Education - Data Analyst Portfolio{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <h1 class="section-title text-center mb-5">Education & Certifications</h1>
+    
+    <!-- Education Section -->
+    <section class="mb-5">
+        <h2 class="mb-4">Academic Background</h2>
+        
+        <div class="card mb-4">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3 class="card-title">B.E. in Computer Science Engineering with Data Science</h3>
+                        <h5>Visvesvaraya Technological University</h5>
+                        <p class="text-muted">December 2022 - Current</p>
+                        <p><strong>CGPA:</strong> 8.1 (Current)</p>
+                    </div>
+                    <div class="col-md-4 text-md-end">
+                        <img src="{{ url_for('static', filename='images/university-logo.jpeg') }}" alt="University Logo" class="img-fluid" style="max-height: 100px;">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                    
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+                </div>
+                <ul>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Certifications Section -->
+    <section class="mb-5">
+        <h2 class="mb-4">Professional Certifications</h2>
+        
+        <div class="row">
+            <!-- Certification 1 -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Advanced Data Analytics & Visualization Job Sim</h4>
+                        <p class="text-muted">Forage</p>
+                        <p>A comprehensive simulation covering advanced data analytics techniques and visualization best practices.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary mt-3">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Certification 2 -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Data Analyst Internship Training</h4>
+                        <p class="text-muted">Trainity</p>
+                        <p>Intensive training on data analysis methodologies, tools, and best practices.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary mt-3">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Certification 3 -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Tata Data Visualization Job Sim</h4>
+                        <p class="text-muted">Forage</p>
+                        <p>Mastered Python programming for data science applications, including data manipulation, analysis, and visualization.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary mt-3">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Additional Training Section -->
+    <section>
+        <h2 class="mb-4">Co-Curricular Activities</h2>
+        
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Winner at Hacktopus hackathon.(2025)</h4>
+                        <p>Developed a s solution to real-world agriculture problems.</p>
+                        <p><strong>Achievement:</strong> Developed Multilingual Agriculture Assistant for farmers.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Participated in Simba GPT hackathon.(2025)</h4>
+                        <p>Collaborated with a team to develop smart solutions in education domain.</p>
+                        <p><strong>Achievement:</strong> Created a Smart Board to Slide Deck Converter with 97% accuracy.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Participated in Code-6-Craze hackathon.(2024)</h4>
+                        <p>Hackathon focused on data-visualzation solutions.</p>
+                        <p><strong>Achievement:</strong> Developed a dashboard for real-time sentiment analysis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}

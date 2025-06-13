@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+
+{% block title %}Samriddhi Saxena - Data Science Student Portfolio{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <!-- Left Side Pane -->
+        <div class="col-lg-3 side-pane">
+            <div class="text-center">
+                <!-- Hello Section -->
+                <div class="hello-section mb-4">
+                    <h2 class="hello-text">Hello <span class="wave-emoji">👋</span></h2>
+                </div>
+
+                <!-- Profile Photo -->
+                <div class="profile-photo-container mb-4">
+                    <img src="{{ url_for('static', filename='images/profile1.jpg') }}" alt="Samriddhi Saxena" class="profile-photo">
+                </div>
+
+                <!-- Name and Title -->
+                <div class="name-section mb-4">
+                    <p class="mb-0">I am</p>
+                    <h1 class="profile-name">Samriddhi Saxena</h1>
+                    <p class="profile-title">Aspiring Data Scientist | Certified Data Analyst | Python & SQL</p>
+                </div>
+
+                <!-- Social Media Icons -->
+                <div class="social-links mb-4">
+                    <a href="mailto:samriddhisaxena3101@gmail.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/samriddhiasaxena/" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/samsaxas" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.youtube.com/@sam_py" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://kaggle.com" class="social-icon" title="Kaggle"><i class="fab fa-kaggle"></i></a>
+                    <a href="https://medium.com/@samaishsax" class="social-icon" title="Medium"><i class="fab fa-medium"></i></a>
+                </div>
+
+                <!-- Resume Download Button -->
+                <div class="resume-download mb-4">
+                    <a href="{{ url_for('download_resume') }}" class="btn btn-primary btn-sm" download><i class="fas fa-download me-2"></i>Download Resume</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="col-lg-9 main-content">
+            <!-- About Section -->
+            <section id="about" class="py-5">
+                <div class="container">
+                    <h2 class="section-title text-center mb-4">About Me</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="card mb-5">
+                                <div class="card-body text-center">
+                                    <p class="lead">Hi! I'm Samriddhi Saxena, a Data Science student with hands-on experience through internships and real-world projects. I enjoy exploring data to uncover insights and build impactful solutions using Python, SQL, and tools like Power BI and Excel.</p>
+
+                                    <div class="d-flex justify-content-center mt-4">
+                                        <a href="/contact" class="btn btn-primary me-3"><i class="fas fa-envelope me-2"></i>Contact Me</a>
+                                        <a href="/projects" class="btn btn-primary"><i class="fas fa-project-diagram me-2"></i>View Projects</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Analytics Dashboard -->
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="card analytics-dashboard mb-4">
+                                <div class="card-header text-center">
+                                    <h4 class="mb-0"><i class="fas fa-chart-line me-2"></i>At a Glance</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-3 col-6 mb-3">
+                                            <div class="stat-card text-center p-3 rounded bg-light">
+                                                <h3 class="text-primary mb-0">4+</h3>
+                                                <small>Projects</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-6 mb-3">
+                                            <div class="stat-card text-center p-3 rounded bg-light">
+                                                <h3 class="text-success mb-0">3</h3>
+                                                <small>Certifications</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-6 mb-3">
+                                            <div class="stat-card text-center p-3 rounded bg-light">
+                                                <h3 class="text-info mb-0">4+</h3>
+                                                <small>Years Coding</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-6 mb-3">
+                                            <div class="stat-card text-center p-3 rounded bg-light">
+                                                <h3 class="text-warning mb-0">3</h3>
+                                                <small>Hackathons</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+{% endblock %}

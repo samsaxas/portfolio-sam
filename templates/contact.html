@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+
+{% block title %}Contact - Data Analyst Portfolio{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <h1 class="section-title text-center mb-5">Get In Touch</h1>
+
+    <div class="row">
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title mb-4">Contact Information</h3>
+
+                    <div class="mb-4">
+                        <h5 class="mb-1">Email</h5>
+                        <p class="mb-0">samriddhisaxena3101@gmail.com</p>
+                    </div>
+
+                    <div class="mb-4">
+                        <h5 class="mb-1">Location</h5>
+                        <p class="mb-0">Bengaluru, India</p>
+                    </div>
+
+                    <h4 class="mt-5 mb-3">Connect With Me</h4>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/samriddhiasaxena/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/samsaxas" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.youtube.com/@sam_py" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://medium.com/@samaishsax" target="_blank" aria-label="Medium"><i class="fab fa-medium"></i></a>
+                    </div>
+
+                    <div class="mt-5">
+                        <h4 class="mb-3">Download Resume</h4>
+                        <a href="{{ url_for('download_resume') }}" class="btn btn-primary">
+                            <i class="fas fa-download me-2"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title mb-4">Send Me a Message</h3>
+
+                    {% with messages = get_flashed_messages(with_categories=true) %}
+                        {% if messages %}
+                            {% for category, message in messages %}
+                                <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                                    {{ message }}
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                    {% endwith %}
+
+                    <form class="contact-form" action="{{ url_for('contact') }}" method="POST">
+                        <!-- CSRF Protection -->
+                        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
+                        <!-- Honeypot field - hidden from users but bots will fill it -->
+                        <div class="d-none">
+                            <label for="website">Website</label>
+                            <input type="text" id="website" name="website" autocomplete="off">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required maxlength="100">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required maxlength="100">
+                            <div class="form-text">Your email will only be used to respond to your message.</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter subject" required maxlength="200">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required maxlength="5000"></textarea>
+                            <div class="form-text text-end">
+                                <span id="message-count">0</span>/5000 characters
+                            </div>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="privacy-check" required>
+                            <label class="form-check-label" for="privacy-check">
+                                I agree that my data will be used to process my request. No data will be shared with third parties.
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">
+                            <i class="fas fa-paper-plane me-2"></i> Send Message
+                        </button>
+                    </form>
+
+                    <script>
+                        // Character counter for message field
+                        document.getElementById('message').addEventListener('input', function() {
+                            document.getElementById('message-count').textContent = this.value.length;
+                        });
+                    </script>
+                </div>
+            </div>
+
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h3 class="card-title mb-3">Availability</h3>
+                    <p>I am currently available for:</p>
+                    <ul>
+                        <li>Data Scientist Internship</li>
+                        <li>Data Analyst Internship</li>
+                        <li>Freelance Data Projects</li>
+                        <li>Other Collaborations</li>
+                    </ul>
+                    <p>Feel free to reach out to discuss potential opportunities!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

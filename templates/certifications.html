@@ -1,0 +1,174 @@
+{% extends 'base.html' %}
+
+{% block title %}Certifications - Data Analyst Portfolio{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <h1 class="section-title text-center mb-5">Professional Certifications</h1>
+    
+    <!-- Certifications Overview -->
+    <div class="row mb-5">
+        <div class="col-lg-12">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title text-primary mb-4"><i class="fas fa-certificate me-2"></i>My Certification Journey</h4>
+                    <p>Continuous learning is a cornerstone of my professional development. These certifications represent my commitment to mastering the latest tools, technologies, and methodologies in the data science field.</p>
+                    <div id="certifications-chart" class="chart-container mt-4" style="height: 300px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Certifications Grid -->
+    <div class="row">
+        <!-- Certification 1 -->
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 certification-card">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="certification-logo me-3">
+                            <i class="fas fa-chart-line fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h4 class="card-title mb-0">Advanced Data Analytics & Visualization Job Sim</h4>
+                            <p class="text-muted mb-0">Forage</p>
+                        </div>
+                    </div>
+                    <p>A comprehensive simulation covering advanced data analytics techniques and visualization best practices.</p>
+                    <h5>Skills Acquired:</h5>
+                    <ul>
+                        <li>Advanced data visualization techniques</li>
+                        <li>Statistical analysis and interpretation</li>
+                        <li>Dashboard creation and design</li>
+                        <li>Data storytelling</li>
+                    </ul>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <span class="badge bg-primary">Completed: Jan 2024</span>
+                        <a href="#" class="btn btn-sm btn-outline-primary">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Certification 2 -->
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 certification-card">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="certification-logo me-3">
+                            <i class="fas fa-database fa-2x text-info"></i>
+                        </div>
+                        <div>
+                            <h4 class="card-title mb-0">Data Analyst Internship Training</h4>
+                            <p class="text-muted mb-0">Tribiry</p>
+                        </div>
+                    </div>
+                    <p>Intensive training on data analysis methodologies, tools, and best practices.</p>
+                    <h5>Skills Acquired:</h5>
+                    <ul>
+                        <li>Data cleaning and preprocessing</li>
+                        <li>Exploratory data analysis</li>
+                        <li>Statistical testing</li>
+                        <li>Data visualization with various tools</li>
+                    </ul>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <span class="badge bg-primary">Completed: Dec 2023</span>
+                        <a href="#" class="btn btn-sm btn-outline-primary">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Certification 3 -->
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 certification-card">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="certification-logo me-3">
+                            <i class="fab fa-python fa-2x text-success"></i>
+                        </div>
+                        <div>
+                            <h4 class="card-title mb-0">Data Science with Python</h4>
+                            <p class="text-muted mb-0">Infosys Springboard</p>
+                        </div>
+                    </div>
+                    <p>Mastered Python programming for data science applications, including data manipulation, analysis, and visualization.</p>
+                    <h5>Skills Acquired:</h5>
+                    <ul>
+                        <li>Python programming for data analysis</li>
+                        <li>Data manipulation with Pandas</li>
+                        <li>Data visualization with Matplotlib and Seaborn</li>
+                        <li>Statistical analysis with NumPy and SciPy</li>
+                    </ul>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <span class="badge bg-primary">Completed: Nov 2023</span>
+                        <a href="#" class="btn btn-sm btn-outline-primary">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Certification 4 -->
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 certification-card">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="certification-logo me-3">
+                            <i class="fas fa-brain fa-2x text-warning"></i>
+                        </div>
+                        <div>
+                            <h4 class="card-title mb-0">Machine Learning with Python</h4>
+                            <p class="text-muted mb-0">Infosys Springboard</p>
+                        </div>
+                    </div>
+                    <p>Advanced training in machine learning algorithms and their implementation using Python.</p>
+                    <h5>Skills Acquired:</h5>
+                    <ul>
+                        <li>Supervised and unsupervised learning algorithms</li>
+                        <li>Model evaluation and validation techniques</li>
+                        <li>Feature engineering and selection</li>
+                        <li>Ensemble methods and advanced ML techniques</li>
+                    </ul>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <span class="badge bg-primary">Completed: Oct 2023</span>
+                        <a href="#" class="btn btn-sm btn-outline-primary">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Certification 5 -->
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 certification-card">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="certification-logo me-3">
+                            <i class="fas fa-laptop-code fa-2x text-danger"></i>
+                        </div>
+                        <div>
+                            <h4 class="card-title mb-0">Data Science</h4>
+                            <p class="text-muted mb-0">Infosys Springboard</p>
+                        </div>
+                    </div>
+                    <p>Comprehensive training in data science principles, methodologies, and applications.</p>
+                    <h5>Skills Acquired:</h5>
+                    <ul>
+                        <li>Data science workflow and methodologies</li>
+                        <li>Predictive modeling techniques</li>
+                        <li>Data mining and pattern recognition</li>
+                        <li>Business intelligence applications</li>
+                    </ul>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <span class="badge bg-primary">Completed: Sep 2023</span>
+                        <a href="#" class="btn btn-sm btn-outline-primary">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/certifications-chart.js') }}"></script>
+{% endblock %}

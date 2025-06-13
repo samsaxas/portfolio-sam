@@ -1,0 +1,1256 @@
+2025-05-21 23:41:24,551 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 23:41:24,551 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 23:41:24,554 - werkzeug - INFO -  * Restarting with stat
+2025-05-21 23:41:24,974 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 23:41:24,998 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-05-21 23:41:29,131 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:41:29] "GET / HTTP/1.1" 200 -
+2025-05-21 23:41:29,418 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:41:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-21 23:41:29,420 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:41:29] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-05-21 23:41:29,429 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:41:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-21 23:41:33,669 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:41:33] "GET /contact HTTP/1.1" 200 -
+2025-05-21 23:41:33,710 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:41:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-21 23:41:33,718 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:41:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-21 23:41:58,597 - __main__ - INFO - Contact form submission attempt from IP: 127.0.0.1
+2025-05-21 23:41:58,600 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:41:58] "[32mPOST /contact HTTP/1.1[0m" 302 -
+2025-05-21 23:41:58,610 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:41:58] "GET /contact HTTP/1.1" 200 -
+2025-05-21 23:41:58,638 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:41:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-21 23:41:58,641 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:41:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-21 23:42:38,778 - __main__ - INFO - Contact form submission attempt from IP: 127.0.0.1
+2025-05-21 23:42:39,954 - __main__ - WARNING - EMAIL_APP_PASSWORD environment variable not set.
+2025-05-21 23:42:39,954 - __main__ - INFO - Email sending will be simulated for development purposes.
+2025-05-21 23:42:39,955 - __main__ - INFO - Would send notification email to samriddhisaxena3101@gmail.com from samaishsax@gmail.com
+2025-05-21 23:42:39,956 - __main__ - INFO - Subject: Hello
+2025-05-21 23:42:39,956 - __main__ - INFO - Message: hello, i want to know more about your journey. let's discuss
+2025-05-21 23:42:41,086 - __main__ - WARNING - EMAIL_APP_PASSWORD environment variable not set.
+2025-05-21 23:42:41,087 - __main__ - INFO - Email sending will be simulated for development purposes.
+2025-05-21 23:42:41,088 - __main__ - INFO - Would send confirmation email to samaishsax@gmail.com
+2025-05-21 23:42:41,089 - __main__ - INFO - Subject: Confirmation: Your message has been received
+2025-05-21 23:42:41,090 - __main__ - INFO - Email sent successfully for samaishsax@gmail.com
+2025-05-21 23:42:41,092 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:42:41] "[32mPOST /contact HTTP/1.1[0m" 302 -
+2025-05-21 23:42:41,106 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:42:41] "GET /contact HTTP/1.1" 200 -
+2025-05-21 23:42:41,157 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:42:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-21 23:42:41,166 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:42:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-21 23:48:11,348 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\sam-trial\\Portfolio\\app.py', reloading
+2025-05-21 23:48:11,403 - werkzeug - INFO -  * Restarting with stat
+2025-05-21 23:48:11,936 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 23:48:11,961 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-05-21 23:48:25,119 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\sam-trial\\Portfolio\\app.py', reloading
+2025-05-21 23:48:25,188 - werkzeug - INFO -  * Restarting with stat
+2025-05-21 23:49:31,984 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 23:49:31,985 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 23:49:31,986 - werkzeug - INFO -  * Restarting with stat
+2025-05-21 23:49:32,403 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 23:49:32,425 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-05-21 23:49:50,181 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 23:49:50,181 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 23:49:50,183 - werkzeug - INFO -  * Restarting with stat
+2025-05-21 23:49:50,718 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 23:49:50,743 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-05-21 23:51:34,820 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\sam-trial\\Portfolio\\config.py', reloading
+2025-05-21 23:51:34,894 - werkzeug - INFO -  * Restarting with stat
+2025-05-21 23:51:35,374 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 23:51:35,398 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-05-21 23:51:59,749 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:51:59] "GET /contact HTTP/1.1" 200 -
+2025-05-21 23:51:59,967 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:51:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-21 23:51:59,968 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:51:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-21 23:54:46,626 - __main__ - INFO - Contact form submission attempt from IP: 127.0.0.1
+2025-05-21 23:54:48,964 - __main__ - ERROR - Error sending notification email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-742adad3d7fsm9947522b3a.15 - gsmtp')
+2025-05-21 23:54:51,244 - __main__ - ERROR - Error sending confirmation email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-742a96dfa19sm9894155b3a.22 - gsmtp')
+2025-05-21 23:54:54,142 - __main__ - ERROR - Error sending notification email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b26eaf8e054sm9909868a12.41 - gsmtp')
+2025-05-21 23:54:56,050 - __main__ - INFO - Contact form submission attempt from IP: 127.0.0.1
+2025-05-21 23:54:57,236 - __main__ - ERROR - Error sending confirmation email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-742a970b923sm9825999b3a.42 - gsmtp')
+2025-05-21 23:54:58,311 - __main__ - ERROR - Error sending notification email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-742a987708asm9863836b3a.155 - gsmtp')
+2025-05-21 23:54:59,544 - __main__ - ERROR - Error sending notification email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-742a970c882sm10325422b3a.55 - gsmtp')
+2025-05-21 23:55:01,287 - __main__ - ERROR - Error sending confirmation email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b26eb081b06sm10022987a12.52 - gsmtp')
+2025-05-21 23:55:01,846 - __main__ - ERROR - Error sending confirmation email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-742a987677dsm10254995b3a.132 - gsmtp')
+2025-05-21 23:55:01,849 - __main__ - ERROR - Failed to send email after 3 attempts
+2025-05-21 23:55:01,854 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:55:01] "[32mPOST /contact HTTP/1.1[0m" 302 -
+2025-05-21 23:55:03,507 - __main__ - ERROR - Error sending notification email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-231d4e97161sm95734125ad.153 - gsmtp')
+2025-05-21 23:55:05,746 - __main__ - ERROR - Error sending confirmation email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-742a970b923sm9826127b3a.42 - gsmtp')
+2025-05-21 23:55:08,023 - __main__ - ERROR - Error sending notification email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-231d4ed576esm95891445ad.242 - gsmtp')
+2025-05-21 23:55:11,063 - __main__ - ERROR - Error sending confirmation email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-742a98a0ca7sm9866631b3a.158 - gsmtp')
+2025-05-21 23:55:11,065 - __main__ - ERROR - Failed to send email after 3 attempts
+2025-05-21 23:55:11,076 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:55:11] "[32mPOST /contact HTTP/1.1[0m" 302 -
+2025-05-21 23:55:11,098 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:55:11] "GET /contact HTTP/1.1" 200 -
+2025-05-21 23:55:11,157 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:55:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-21 23:55:11,165 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:55:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-21 23:55:32,120 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\sam-trial\\Portfolio\\app.py', reloading
+2025-05-21 23:55:32,217 - werkzeug - INFO -  * Restarting with stat
+2025-05-21 23:55:32,819 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 23:55:32,843 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-05-21 23:55:53,361 - __main__ - INFO - Contact form submission attempt from IP: 127.0.0.1
+2025-05-21 23:55:54,515 - __main__ - WARNING - EMAIL_APP_PASSWORD environment variable not set.
+2025-05-21 23:55:54,516 - __main__ - INFO - Email sending will be simulated for development purposes.
+2025-05-21 23:55:54,516 - __main__ - INFO - Would send notification email to samriddhisaxena3101@gmail.com from samaishsax@gmail.com
+2025-05-21 23:55:54,516 - __main__ - INFO - Subject: Hello
+2025-05-21 23:55:54,517 - __main__ - INFO - Message: i want to learn about dataa science
+2025-05-21 23:55:56,264 - __main__ - WARNING - EMAIL_APP_PASSWORD environment variable not set.
+2025-05-21 23:55:56,265 - __main__ - INFO - Email sending will be simulated for development purposes.
+2025-05-21 23:55:56,267 - __main__ - INFO - Would send confirmation email to samaishsax@gmail.com
+2025-05-21 23:55:56,269 - __main__ - INFO - Subject: Confirmation: Your message has been received
+2025-05-21 23:55:56,270 - __main__ - INFO - Email sent successfully for samaishsax@gmail.com
+2025-05-21 23:55:56,275 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:55:56] "[32mPOST /contact HTTP/1.1[0m" 302 -
+2025-05-21 23:55:56,318 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:55:56] "GET /contact HTTP/1.1" 200 -
+2025-05-21 23:55:56,517 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:55:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-21 23:55:56,518 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 23:55:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:02:49,141 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:02:49] "GET /education HTTP/1.1" 200 -
+2025-05-22 00:02:49,214 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:02:49] "[33mGET /static/images/university-logo.png HTTP/1.1[0m" 404 -
+2025-05-22 00:02:49,224 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:02:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:02:49,227 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:02:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:05:32,662 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:05:32] "GET /education HTTP/1.1" 200 -
+2025-05-22 00:05:32,689 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:05:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:05:32,704 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:05:32] "GET /static/images/university-logo.jpeg HTTP/1.1" 200 -
+2025-05-22 00:05:32,706 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:05:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:06:13,265 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:06:13] "GET /education HTTP/1.1" 200 -
+2025-05-22 00:06:13,312 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:06:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:06:13,326 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:06:13] "[36mGET /static/images/university-logo.jpeg HTTP/1.1[0m" 304 -
+2025-05-22 00:06:13,329 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:06:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:06:29,910 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:06:29] "GET /education HTTP/1.1" 200 -
+2025-05-22 00:06:29,937 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:06:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:06:29,941 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:06:29] "[36mGET /static/images/university-logo.jpeg HTTP/1.1[0m" 304 -
+2025-05-22 00:06:29,943 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:06:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:06:37,531 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:06:37] "GET /education HTTP/1.1" 200 -
+2025-05-22 00:06:37,560 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:06:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:06:37,573 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:06:37] "[36mGET /static/images/university-logo.jpeg HTTP/1.1[0m" 304 -
+2025-05-22 00:06:37,574 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:06:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:07:02,895 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:07:02] "GET /education HTTP/1.1" 200 -
+2025-05-22 00:07:02,926 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:07:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:07:02,937 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:07:02] "[36mGET /static/images/university-logo.jpeg HTTP/1.1[0m" 304 -
+2025-05-22 00:07:02,941 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:07:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:08:02,002 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:08:02] "GET /education HTTP/1.1" 200 -
+2025-05-22 00:08:02,048 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:08:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:08:02,058 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:08:02] "[36mGET /static/images/university-logo.jpeg HTTP/1.1[0m" 304 -
+2025-05-22 00:08:02,061 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:08:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:08:04,994 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:08:04] "GET /education HTTP/1.1" 200 -
+2025-05-22 00:08:05,019 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:08:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:08:05,029 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:08:05] "[36mGET /static/images/university-logo.jpeg HTTP/1.1[0m" 304 -
+2025-05-22 00:08:05,034 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:08:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:10:36,078 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:10:36] "GET /education HTTP/1.1" 200 -
+2025-05-22 00:10:36,126 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:10:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:10:36,144 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:10:36] "[36mGET /static/images/university-logo.jpeg HTTP/1.1[0m" 304 -
+2025-05-22 00:10:36,145 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:10:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:11:31,639 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:11:31] "GET /education HTTP/1.1" 200 -
+2025-05-22 00:11:31,680 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:11:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:11:31,695 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:11:31] "[36mGET /static/images/university-logo.jpeg HTTP/1.1[0m" 304 -
+2025-05-22 00:11:31,698 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:11:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:11:51,479 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:11:51] "GET /education HTTP/1.1" 200 -
+2025-05-22 00:11:51,506 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:11:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:11:51,519 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:11:51] "[36mGET /static/images/university-logo.jpeg HTTP/1.1[0m" 304 -
+2025-05-22 00:11:51,521 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:11:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:18:10,623 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:18:10] "GET /education HTTP/1.1" 200 -
+2025-05-22 00:18:10,682 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:18:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:18:10,688 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:18:10] "[36mGET /static/images/university-logo.jpeg HTTP/1.1[0m" 304 -
+2025-05-22 00:18:10,689 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:18:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:18:27,160 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:18:27] "GET /dashboard HTTP/1.1" 200 -
+2025-05-22 00:18:27,198 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:18:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:18:27,205 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:18:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:18:39,628 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:18:39] "GET / HTTP/1.1" 200 -
+2025-05-22 00:18:39,659 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:18:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:18:39,669 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:18:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:18:39,670 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:18:39] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-05-22 00:19:36,058 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:19:36] "GET / HTTP/1.1" 200 -
+2025-05-22 00:19:36,118 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:19:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:19:36,135 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:19:36] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-05-22 00:19:36,136 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:19:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:19:45,272 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:19:45] "GET /skills HTTP/1.1" 200 -
+2025-05-22 00:19:45,305 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:19:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:19:45,315 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:19:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:19:45,400 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:19:45] "[36mGET /static/js/skills-charts.js HTTP/1.1[0m" 304 -
+2025-05-22 00:19:54,705 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:19:54] "GET /projects HTTP/1.1" 200 -
+2025-05-22 00:19:54,733 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:19:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:19:54,739 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:19:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:19:54,744 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:19:54] "[36mGET /static/js/projects-charts.js HTTP/1.1[0m" 304 -
+2025-05-22 00:20:14,782 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:20:14] "GET /experience HTTP/1.1" 200 -
+2025-05-22 00:20:14,828 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:20:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:20:14,833 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:20:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:20:14,835 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:20:14] "GET /static/js/experience-timeline.js HTTP/1.1" 200 -
+2025-05-22 00:23:21,346 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-22 00:23:21,347 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-22 00:23:21,351 - werkzeug - INFO -  * Restarting with stat
+2025-05-22 00:23:21,748 - werkzeug - WARNING -  * Debugger is active!
+2025-05-22 00:23:21,771 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-05-22 00:24:58,450 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:24:58] "GET /experience HTTP/1.1" 200 -
+2025-05-22 00:24:58,700 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:24:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:24:58,701 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:24:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:24:58,707 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:24:58] "GET /static/js/experience-timeline.js HTTP/1.1" 200 -
+2025-05-22 00:38:36,378 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-22 00:38:36,378 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-22 00:38:36,380 - werkzeug - INFO -  * Restarting with stat
+2025-05-22 00:38:36,778 - werkzeug - WARNING -  * Debugger is active!
+2025-05-22 00:38:36,801 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-05-22 00:43:29,879 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:43:29] "GET /experience HTTP/1.1" 200 -
+2025-05-22 00:43:30,142 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:43:30] "GET /static/js/experience-timeline.js HTTP/1.1" 200 -
+2025-05-22 00:43:30,145 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:43:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:43:30,153 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:43:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:44:58,250 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-22 00:44:58,251 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-22 00:44:58,253 - werkzeug - INFO -  * Restarting with stat
+2025-05-22 00:44:58,675 - werkzeug - WARNING -  * Debugger is active!
+2025-05-22 00:44:58,697 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-05-22 00:45:31,044 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:45:31] "GET /experience HTTP/1.1" 200 -
+2025-05-22 00:45:31,274 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:45:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 00:45:31,301 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:45:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 00:45:31,310 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 00:45:31] "GET /static/js/experience-timeline.js HTTP/1.1" 200 -
+2025-05-22 01:06:06,097 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:06:06] "GET /experience HTTP/1.1" 200 -
+2025-05-22 01:06:06,180 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:06:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-22 01:06:06,254 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:06:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 01:06:06,264 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:06:06] "GET /static/js/experience-timeline.js HTTP/1.1" 200 -
+2025-05-22 01:11:16,022 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:16] "GET /experience HTTP/1.1" 200 -
+2025-05-22 01:11:16,077 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:16] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-22 01:11:16,092 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 01:11:16,093 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:16] "GET /static/js/experience-timeline.js HTTP/1.1" 200 -
+2025-05-22 01:11:34,634 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:34] "GET /experience HTTP/1.1" 200 -
+2025-05-22 01:11:34,659 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 01:11:34,665 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 01:11:34,667 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:34] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-05-22 01:11:43,317 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:43] "GET /experience HTTP/1.1" 200 -
+2025-05-22 01:11:43,349 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 01:11:43,357 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 01:11:43,362 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:43] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-05-22 01:11:44,504 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:44] "GET /experience HTTP/1.1" 200 -
+2025-05-22 01:11:44,541 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 01:11:44,549 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 01:11:44,552 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:44] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-05-22 01:11:52,804 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:52] "GET /experience HTTP/1.1" 200 -
+2025-05-22 01:11:52,824 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 01:11:52,937 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 01:11:52,938 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:11:52] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-05-22 01:12:12,513 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:12] "GET /experience HTTP/1.1" 200 -
+2025-05-22 01:12:12,550 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 01:12:12,565 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 01:12:12,566 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:12] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-05-22 01:12:17,649 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:17] "GET /experience HTTP/1.1" 200 -
+2025-05-22 01:12:17,684 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 01:12:17,693 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 01:12:17,694 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:17] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-05-22 01:12:18,190 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:18] "GET /experience HTTP/1.1" 200 -
+2025-05-22 01:12:18,222 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 01:12:18,232 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 01:12:18,233 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:18] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-05-22 01:12:19,549 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:19] "GET / HTTP/1.1" 200 -
+2025-05-22 01:12:19,595 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 01:12:19,606 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:19] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-05-22 01:12:19,608 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 01:12:20,763 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:20] "GET /experience HTTP/1.1" 200 -
+2025-05-22 01:12:20,800 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 01:12:20,816 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:20] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-05-22 01:12:20,820 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:12:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 01:16:10,197 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:16:10] "GET /experience HTTP/1.1" 200 -
+2025-05-22 01:16:10,247 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:16:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 01:16:10,261 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:16:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 01:16:10,263 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 01:16:10] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-06-13 20:34:15,439 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-13 20:34:15,441 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-13 20:34:15,473 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 20:34:16,067 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 20:34:16,087 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 20:34:18,970 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:34:18] "GET / HTTP/1.1" 200 -
+2025-06-13 20:34:19,342 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:34:19] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-06-13 20:34:19,373 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:34:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-13 20:34:19,380 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:34:19] "GET /static/images/profile1.jpg HTTP/1.1" 200 -
+2025-06-13 20:34:28,492 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:34:28] "GET /skills HTTP/1.1" 200 -
+2025-06-13 20:34:28,539 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:34:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 20:34:28,560 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:34:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 20:34:28,562 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:34:28] "GET /static/js/skills-charts.js HTTP/1.1" 200 -
+2025-06-13 20:34:34,645 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:34:34] "GET / HTTP/1.1" 200 -
+2025-06-13 20:34:34,697 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:34:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 20:34:34,715 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:34:34] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-13 20:34:34,718 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:34:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 20:34:49,150 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:34:49] "GET /skills HTTP/1.1" 200 -
+2025-06-13 20:34:49,203 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:34:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 20:34:49,218 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:34:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 20:34:49,221 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:34:49] "[36mGET /static/js/skills-charts.js HTTP/1.1[0m" 304 -
+2025-06-13 20:35:04,769 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:35:04] "GET /projects HTTP/1.1" 200 -
+2025-06-13 20:35:04,827 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:35:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 20:35:04,850 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:35:04] "GET /static/js/projects-charts.js HTTP/1.1" 200 -
+2025-06-13 20:35:04,853 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:35:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 20:35:16,749 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:35:16] "GET /experience HTTP/1.1" 200 -
+2025-06-13 20:35:16,848 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:35:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 20:35:16,866 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:35:16] "GET /static/js/experience-timeline.js HTTP/1.1" 200 -
+2025-06-13 20:35:16,872 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:35:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 20:35:47,289 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:35:47] "GET /education HTTP/1.1" 200 -
+2025-06-13 20:35:47,350 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:35:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 20:35:47,368 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:35:47] "GET /static/images/university-logo.jpeg HTTP/1.1" 200 -
+2025-06-13 20:35:47,370 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:35:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 20:35:52,225 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:35:52] "GET /dashboard HTTP/1.1" 200 -
+2025-06-13 20:35:52,274 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:35:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 20:35:52,300 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:35:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 20:44:10,166 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:44:10] "GET /contact HTTP/1.1" 200 -
+2025-06-13 20:44:10,233 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:44:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 20:44:10,263 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:44:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 20:44:18,875 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:44:18] "GET /download-resume HTTP/1.1" 200 -
+2025-06-13 20:44:25,979 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:44:25] "GET / HTTP/1.1" 200 -
+2025-06-13 20:44:26,032 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:44:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 20:44:26,052 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:44:26] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-13 20:44:26,054 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:44:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 20:44:47,030 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\mime\\multipart.py', reloading
+2025-06-13 20:44:47,941 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 20:44:48,549 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 20:44:48,566 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 20:46:44,217 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:46:44] "GET / HTTP/1.1" 200 -
+2025-06-13 20:46:44,538 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:46:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 20:46:44,558 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:46:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 20:46:44,562 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:46:44] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-13 20:46:48,281 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:46:48] "GET /download-resume HTTP/1.1" 200 -
+2025-06-13 20:48:44,457 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:48:44] "GET / HTTP/1.1" 200 -
+2025-06-13 20:48:44,544 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:48:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 20:48:44,556 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:48:44] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-13 20:48:44,562 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:48:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 20:52:51,042 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:52:51] "GET / HTTP/1.1" 200 -
+2025-06-13 20:52:51,105 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:52:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 20:52:51,123 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:52:51] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-13 20:52:51,125 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:52:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 20:53:32,389 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:53:32] "GET / HTTP/1.1" 200 -
+2025-06-13 20:53:32,435 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:53:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 20:53:32,458 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:53:32] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-13 20:53:32,459 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:53:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 20:58:59,723 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:58:59] "GET / HTTP/1.1" 200 -
+2025-06-13 20:58:59,774 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:58:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 20:58:59,782 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:58:59] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-13 20:58:59,789 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 20:58:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 21:00:03,003 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:00:03] "GET / HTTP/1.1" 200 -
+2025-06-13 21:00:03,065 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:00:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 21:00:03,085 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:00:03] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-13 21:00:03,092 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:00:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 21:00:32,513 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:00:32] "GET /skills HTTP/1.1" 200 -
+2025-06-13 21:00:32,928 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:00:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 21:00:33,117 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:00:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 21:00:33,340 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:00:33] "[36mGET /static/js/skills-charts.js HTTP/1.1[0m" 304 -
+2025-06-13 21:13:00,965 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:13:00] "GET /skills HTTP/1.1" 200 -
+2025-06-13 21:13:01,027 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:13:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 21:13:01,027 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:13:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 21:13:01,029 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:13:01] "[36mGET /static/js/skills-charts.js HTTP/1.1[0m" 304 -
+2025-06-13 21:13:37,743 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:13:37] "GET /skills HTTP/1.1" 200 -
+2025-06-13 21:13:37,789 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:13:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 21:13:37,808 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:13:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 21:13:37,811 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:13:37] "[36mGET /static/js/skills-charts.js HTTP/1.1[0m" 304 -
+2025-06-13 21:13:55,691 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:13:55] "GET /projects HTTP/1.1" 200 -
+2025-06-13 21:13:55,730 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:13:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 21:13:55,740 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:13:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 21:13:55,747 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:13:55] "[36mGET /static/js/projects-charts.js HTTP/1.1[0m" 304 -
+2025-06-13 21:14:38,645 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:14:38] "GET /experience HTTP/1.1" 200 -
+2025-06-13 21:14:38,691 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:14:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 21:14:38,701 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:14:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 21:14:38,701 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 21:14:38] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-06-13 22:14:09,952 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-13 22:14:09,953 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-13 22:14:09,988 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:14:10,464 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:14:10,478 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:14:46,703 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-13 22:14:47,841 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:14:48,632 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:14:48,649 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:14:57,427 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-13 22:14:57,428 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-13 22:14:57,429 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-13 22:14:57,786 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:14:58,453 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:14:58,468 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:15:05,121 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-13 22:15:05,122 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-13 22:15:05,147 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:15:05,671 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:15:05,684 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:16:39,940 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-13 22:16:39,940 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-13 22:16:39,963 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:16:40,625 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:16:40,646 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:16:57,688 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-13 22:16:57,690 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-13 22:16:57,713 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:16:58,299 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:16:58,315 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:17:05,202 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:17:05] "GET / HTTP/1.1" 200 -
+2025-06-13 22:17:05,577 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:17:05] "GET /static/images/profile1.jpg HTTP/1.1" 200 -
+2025-06-13 22:17:05,609 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:17:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-13 22:17:05,621 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:17:05] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-06-13 22:17:13,093 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:17:13] "GET /experience HTTP/1.1" 200 -
+2025-06-13 22:17:13,140 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:17:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 22:17:13,155 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:17:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 22:17:13,158 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:17:13] "GET /static/js/experience-timeline.js HTTP/1.1" 200 -
+2025-06-13 22:22:49,095 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:22:49] "GET /experience HTTP/1.1" 200 -
+2025-06-13 22:22:49,192 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:22:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 22:22:49,193 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:22:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 22:22:49,239 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:22:49] "GET /static/js/experience-timeline.js HTTP/1.1" 200 -
+2025-06-13 22:31:16,443 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:31:16] "GET /education HTTP/1.1" 200 -
+2025-06-13 22:31:16,585 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:31:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 22:31:16,587 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:31:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 22:31:16,752 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:31:16] "GET /static/images/university-logo.jpeg HTTP/1.1" 200 -
+2025-06-13 22:32:37,951 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:32:37] "GET /dashboard HTTP/1.1" 200 -
+2025-06-13 22:32:38,013 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:32:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 22:32:38,039 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:32:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 22:34:51,034 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-06-13 22:34:51,035 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-06-13 22:34:51,035 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-06-13 22:34:51,036 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-06-13 22:34:51,064 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\app.py', reloading
+2025-06-13 22:34:51,064 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\app.py', reloading
+2025-06-13 22:34:51,271 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-06-13 22:34:51,271 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-06-13 22:34:51,271 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-06-13 22:34:51,342 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-06-13 22:34:51,342 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-06-13 22:34:51,342 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-06-13 22:34:51,343 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-06-13 22:34:51,483 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-06-13 22:34:51,483 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-06-13 22:34:51,483 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-06-13 22:34:51,501 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-06-13 22:34:51,504 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-06-13 22:34:51,508 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-06-13 22:34:51,530 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-06-13 22:34:51,531 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-06-13 22:34:51,531 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-06-13 22:34:51,668 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-06-13 22:34:51,668 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-06-13 22:34:51,736 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:34:51,903 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:34:51,916 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask_wtf\\csrf.py', reloading
+2025-06-13 22:34:51,916 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask_wtf\\csrf.py', reloading
+2025-06-13 22:34:52,199 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:34:52,204 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:34:54,059 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:34:54,093 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:34:54,094 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:34:54,122 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:34:54,126 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:34:54,150 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:34:54,153 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:34:54,180 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:34:54,409 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\config.py', reloading
+2025-06-13 22:34:54,410 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\config.py', reloading
+2025-06-13 22:34:54,410 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\config.py', reloading
+2025-06-13 22:34:54,410 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\config.py', reloading
+2025-06-13 22:34:54,514 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-06-13 22:34:54,514 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-06-13 22:34:54,520 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-06-13 22:34:54,520 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-06-13 22:34:54,520 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-06-13 22:34:54,536 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+2025-06-13 22:34:54,536 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+2025-06-13 22:34:54,536 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+2025-06-13 22:34:54,687 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+2025-06-13 22:34:54,687 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+2025-06-13 22:34:54,687 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+2025-06-13 22:34:54,726 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+2025-06-13 22:34:54,726 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+2025-06-13 22:34:54,743 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+2025-06-13 22:34:54,743 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+2025-06-13 22:34:54,772 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\datastructures\\mixins.py', reloading
+2025-06-13 22:34:54,772 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\datastructures\\mixins.py', reloading
+2025-06-13 22:34:54,773 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\datastructures\\mixins.py', reloading
+2025-06-13 22:34:55,469 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:34:55,591 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:34:55,594 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:34:55,603 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:34:56,973 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:34:57,001 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:34:57,004 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:34:57,010 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:34:57,018 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:34:57,040 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:34:57,042 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:34:57,043 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:34:58,066 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\__init__.py', reloading
+2025-06-13 22:34:58,067 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\__init__.py', reloading
+2025-06-13 22:34:58,068 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\__init__.py', reloading
+2025-06-13 22:34:58,069 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\__init__.py', reloading
+2025-06-13 22:34:58,317 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:34:58,322 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:34:58,352 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:34:58,399 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:35:00,306 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:35:00,325 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:35:00,336 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:35:00,353 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:35:00,356 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:35:00,374 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:35:00,382 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:35:00,402 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:35:00,722 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\logging\\__init__.py', reloading
+2025-06-13 22:35:00,722 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\logging\\__init__.py', reloading
+2025-06-13 22:35:00,723 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\logging\\__init__.py', reloading
+2025-06-13 22:35:00,722 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\logging\\__init__.py', reloading
+2025-06-13 22:35:00,875 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\secrets.py', reloading
+2025-06-13 22:35:00,927 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\re\\__init__.py', reloading
+2025-06-13 22:35:00,927 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\re\\__init__.py', reloading
+2025-06-13 22:35:00,927 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\re\\__init__.py', reloading
+2025-06-13 22:35:01,096 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\datetime.py', reloading
+2025-06-13 22:35:01,096 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\datetime.py', reloading
+2025-06-13 22:35:01,096 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\datetime.py', reloading
+2025-06-13 22:35:01,171 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\mime\\text.py', reloading
+2025-06-13 22:35:01,172 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\mime\\text.py', reloading
+2025-06-13 22:35:01,184 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\mime\\multipart.py', reloading
+2025-06-13 22:35:01,185 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\mime\\multipart.py', reloading
+2025-06-13 22:35:01,185 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\mime\\multipart.py', reloading
+2025-06-13 22:35:01,276 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\functools.py', reloading
+2025-06-13 22:35:01,570 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:35:01,584 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:35:01,586 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:35:01,634 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:35:02,347 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:35:02,352 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:35:02,367 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:35:02,368 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:35:02,370 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:35:02,372 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:35:02,388 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:35:02,392 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:35:05,130 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-13 22:35:05,130 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-13 22:35:05,132 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-13 22:35:05,133 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-13 22:35:05,551 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:35:05,588 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:35:05,590 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:35:05,601 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:35:06,441 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:35:06,442 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:35:06,445 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:35:06,459 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:35:06,461 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:35:06,461 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:35:06,464 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:35:06,483 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:36:11,295 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:36:11] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-06-13 22:36:13,794 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:36:13] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-06-13 22:36:47,486 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-13 22:36:47,486 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-13 22:36:47,506 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:36:47,997 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:36:48,011 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:36:51,232 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:36:51] "GET / HTTP/1.1" 200 -
+2025-06-13 22:36:51,557 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:36:51] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-13 22:36:51,563 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:36:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 22:36:51,569 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:36:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 22:36:57,190 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:36:57] "GET /skills HTTP/1.1" 200 -
+2025-06-13 22:36:57,226 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:36:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 22:36:57,232 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:36:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 22:36:57,234 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:36:57] "GET /static/js/skills-charts.js HTTP/1.1" 200 -
+2025-06-13 22:37:00,326 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:37:00] "GET /projects HTTP/1.1" 200 -
+2025-06-13 22:37:00,359 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:37:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 22:37:00,367 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:37:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 22:37:00,369 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:37:00] "GET /static/js/projects-charts.js HTTP/1.1" 200 -
+2025-06-13 22:37:02,120 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:37:02] "GET /experience HTTP/1.1" 200 -
+2025-06-13 22:37:02,146 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:37:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 22:37:02,157 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:37:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 22:37:02,158 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:37:02] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-06-13 22:37:05,342 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:37:05] "GET /education HTTP/1.1" 200 -
+2025-06-13 22:37:05,375 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:37:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 22:37:05,385 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:37:05] "[36mGET /static/images/university-logo.jpeg HTTP/1.1[0m" 304 -
+2025-06-13 22:37:05,387 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:37:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 22:37:06,829 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:37:06] "GET /contact HTTP/1.1" 200 -
+2025-06-13 22:37:06,857 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:37:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 22:37:06,862 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:37:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 22:39:56,897 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask_mail\\__init__.py', reloading
+2025-06-13 22:39:56,897 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask_mail\\__init__.py', reloading
+2025-06-13 22:39:56,899 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask_mail\\__init__.py', reloading
+2025-06-13 22:39:56,900 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask_mail\\__init__.py', reloading
+2025-06-13 22:39:56,900 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask_mail\\__init__.py', reloading
+2025-06-13 22:39:56,901 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask_mail\\__init__.py', reloading
+2025-06-13 22:39:56,901 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask_mail\\__init__.py', reloading
+2025-06-13 22:39:56,904 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask_mail\\__init__.py', reloading
+2025-06-13 22:39:57,477 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:39:57,487 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:39:57,502 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:39:57,677 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:39:58,174 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:39:58,178 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:39:58,191 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:39:58,193 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:39:58,197 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:39:58,210 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:39:58,348 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:39:58,362 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:45:06,188 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-13 22:45:06,189 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-13 22:45:06,191 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-13 22:45:06,191 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-13 22:45:06,192 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-13 22:45:06,192 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-13 22:45:06,448 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:45:06,449 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:45:06,496 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:45:06,586 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:45:08,224 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:45:08,261 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:45:08,273 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:45:08,283 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:45:08,311 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:45:08,320 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:45:08,371 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:45:08,407 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:45:41,349 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-13 22:45:41,349 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-13 22:45:41,350 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-13 22:45:41,350 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-13 22:45:41,351 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-13 22:45:41,351 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-13 22:45:41,353 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-13 22:45:41,354 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-13 22:45:41,569 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:45:41,590 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:45:41,646 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:45:41,773 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:45:42,907 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:45:42,907 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:45:42,940 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:45:42,941 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:45:42,971 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:45:43,000 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:45:43,006 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:45:43,038 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:50:40,516 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\dotenv\\__init__.py', reloading
+2025-06-13 22:50:40,516 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\dotenv\\__init__.py', reloading
+2025-06-13 22:50:40,517 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\dotenv\\__init__.py', reloading
+2025-06-13 22:50:40,523 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\dotenv\\main.py', reloading
+2025-06-13 22:50:40,523 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\dotenv\\main.py', reloading
+2025-06-13 22:50:41,292 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:50:41,475 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:50:41,534 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:50:41,689 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:50:42,201 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:50:42,226 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:50:42,301 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:50:42,322 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:50:42,331 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:50:42,348 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:50:42,426 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:50:42,443 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:50:43,793 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-13 22:50:43,793 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-13 22:50:43,793 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-13 22:50:43,794 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-13 22:50:43,795 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-13 22:50:43,795 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-13 22:50:43,796 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-13 22:50:44,366 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:50:44,473 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:50:44,487 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:50:44,576 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-13 22:50:45,279 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:50:45,303 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:50:45,357 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:50:45,372 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:50:45,378 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:50:45,389 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:50:45,432 - werkzeug - WARNING -  * Debugger is active!
+2025-06-13 22:50:45,445 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-13 22:53:41,525 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:53:41] "GET /contact HTTP/1.1" 200 -
+2025-06-13 22:53:41,784 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:53:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-13 22:53:41,787 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:53:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 22:54:19,679 - __main__ - INFO - Contact form submission attempt from IP: 127.0.0.1
+2025-06-13 22:54:23,564 - __main__ - ERROR - Error sending notification email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7488ffee55bsm1862968b3a.1 - gsmtp')
+2025-06-13 22:54:26,870 - __main__ - INFO - Contact form submission attempt from IP: 127.0.0.1
+2025-06-13 22:54:27,455 - __main__ - ERROR - Error sending confirmation email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2365d88f423sm17215025ad.12 - gsmtp')
+2025-06-13 22:54:30,644 - __main__ - ERROR - Error sending notification email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2365e0d0b12sm17057955ad.253 - gsmtp')
+2025-06-13 22:54:31,311 - __main__ - ERROR - Error sending notification email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-74890005f47sm1954870b3a.51 - gsmtp')
+2025-06-13 22:54:34,630 - __main__ - ERROR - Error sending confirmation email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-313c1b5efa2sm3653591a91.41 - gsmtp')
+2025-06-13 22:54:35,170 - __main__ - ERROR - Error sending confirmation email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7489000bf96sm1868701b3a.70 - gsmtp')
+2025-06-13 22:54:38,431 - __main__ - ERROR - Error sending notification email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b2fe16920b1sm2001463a12.73 - gsmtp')
+2025-06-13 22:54:39,051 - __main__ - ERROR - Error sending notification email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2365de783a8sm17010585ad.99 - gsmtp')
+2025-06-13 22:54:42,244 - __main__ - ERROR - Error sending confirmation email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2365d8a17c0sm17199895ad.63 - gsmtp')
+2025-06-13 22:54:42,870 - __main__ - ERROR - Error sending confirmation email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7489000bf96sm1868836b3a.70 - gsmtp')
+2025-06-13 22:54:42,870 - __main__ - ERROR - Failed to send email after 3 attempts
+2025-06-13 22:54:42,871 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:54:42] "[32mPOST /contact HTTP/1.1[0m" 302 -
+2025-06-13 22:54:46,050 - __main__ - ERROR - Error sending notification email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2365decb0dbsm17041025ad.219 - gsmtp')
+2025-06-13 22:54:49,943 - __main__ - ERROR - Error sending confirmation email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-313c19dcd05sm4096237a91.14 - gsmtp')
+2025-06-13 22:54:49,944 - __main__ - ERROR - Failed to send email after 3 attempts
+2025-06-13 22:54:49,947 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:54:49] "[32mPOST /contact HTTP/1.1[0m" 302 -
+2025-06-13 22:54:49,967 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:54:49] "GET /contact HTTP/1.1" 200 -
+2025-06-13 22:54:50,027 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:54:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-13 22:54:50,046 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 22:54:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 00:00:49,515 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-14 00:00:49,517 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-14 00:00:49,514 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-14 00:00:49,517 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-14 00:00:50,271 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 00:00:50,299 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 00:00:50,395 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 00:00:50,411 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 00:00:52,266 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 00:00:52,291 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 00:00:58,083 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 00:00:58,272 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 00:00:59,259 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 00:00:59,281 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 00:00:59,320 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 00:00:59,343 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 01:04:29,622 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-14 01:04:29,622 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-14 01:04:30,537 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 01:04:30,536 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 01:04:30,661 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 01:04:30,673 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 01:04:33,055 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 01:04:33,103 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 01:04:33,942 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 01:04:33,967 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 01:04:34,052 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 01:04:34,074 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 01:04:34,146 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 01:04:34,166 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 01:15:02,921 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-14 01:15:02,921 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-14 01:15:02,923 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-14 01:15:02,923 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-14 01:15:03,317 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 01:15:03,364 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 01:15:03,440 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 01:15:03,630 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 01:15:03,933 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 01:15:03,944 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 01:15:03,954 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 01:15:03,965 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 01:15:04,032 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 01:15:04,043 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 01:15:04,161 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 01:15:04,172 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 01:15:11,686 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-06-14 01:15:11,686 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-06-14 01:15:11,687 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-06-14 01:15:11,687 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-06-14 01:15:11,726 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\app.py', reloading
+2025-06-14 01:15:11,726 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\app.py', reloading
+2025-06-14 01:15:11,726 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\app.py', reloading
+2025-06-14 01:15:11,786 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-06-14 01:15:11,820 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-06-14 01:15:11,820 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-06-14 01:15:11,838 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-06-14 01:15:11,861 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-06-14 01:15:11,861 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-06-14 01:15:11,886 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-06-14 01:15:11,958 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-06-14 01:15:11,958 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-06-14 01:15:11,958 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-06-14 01:15:12,093 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-06-14 01:15:12,125 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-06-14 01:15:12,171 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python311\\pyspark_env\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-06-14 01:15:12,204 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 01:15:12,212 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 01:15:12,276 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 01:15:12,377 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 01:15:13,116 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 01:15:13,137 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 01:15:13,156 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 01:15:13,173 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 01:15:13,181 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 01:15:13,193 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 01:15:13,249 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 01:15:13,261 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 01:17:04,316 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:17:04] "GET /contact HTTP/1.1" 200 -
+2025-06-14 01:17:14,719 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:17:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 01:17:15,188 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:17:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 01:18:27,390 - __main__ - INFO - Contact form submission attempt from IP: 127.0.0.1
+2025-06-14 01:18:32,307 - __main__ - INFO - Notification email sent to samriddhisaxena3101@gmail.com
+2025-06-14 01:18:36,947 - __main__ - INFO - Confirmation email sent to samaishsax@gmail.com
+2025-06-14 01:18:36,947 - __main__ - INFO - Email sent successfully for samaishsax@gmail.com
+2025-06-14 01:18:36,949 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:18:36] "[32mPOST /contact HTTP/1.1[0m" 302 -
+2025-06-14 01:18:36,962 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:18:36] "GET /contact HTTP/1.1" 200 -
+2025-06-14 01:18:37,016 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:18:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 01:18:37,038 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:18:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 01:21:50,174 - __main__ - INFO - Contact form submission attempt from IP: 127.0.0.1
+2025-06-14 01:21:54,895 - __main__ - INFO - Notification email sent to samriddhisaxena3101@gmail.com
+2025-06-14 01:21:59,544 - __main__ - INFO - Confirmation email sent to unnatisax30@gmail.com
+2025-06-14 01:21:59,545 - __main__ - INFO - Email sent successfully for unnatisax30@gmail.com
+2025-06-14 01:21:59,546 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:21:59] "[32mPOST /contact HTTP/1.1[0m" 302 -
+2025-06-14 01:21:59,555 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:21:59] "GET /contact HTTP/1.1" 200 -
+2025-06-14 01:21:59,599 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:21:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 01:21:59,611 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:21:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 01:38:32,300 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:38:32] "GET / HTTP/1.1" 200 -
+2025-06-14 01:38:32,654 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:38:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 01:38:32,803 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:38:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 01:38:32,872 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:38:32] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 01:38:44,100 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:38:44] "GET /contact HTTP/1.1" 200 -
+2025-06-14 01:38:44,202 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:38:44] "GET /contact HTTP/1.1" 200 -
+2025-06-14 01:38:44,244 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:38:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 01:38:44,260 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:38:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 01:38:51,809 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:38:51] "GET / HTTP/1.1" 200 -
+2025-06-14 01:38:51,913 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:38:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 01:38:51,920 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:38:51] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 01:38:51,929 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:38:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 01:38:58,653 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:38:58] "GET /contact HTTP/1.1" 200 -
+2025-06-14 01:38:58,705 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:38:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 01:38:58,710 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:38:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 01:39:32,309 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:39:32] "GET /projects HTTP/1.1" 200 -
+2025-06-14 01:39:32,360 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:39:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 01:39:32,385 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:39:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 01:39:32,469 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:39:32] "[36mGET /static/js/projects-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 01:49:05,318 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:49:05] "GET /projects HTTP/1.1" 200 -
+2025-06-14 01:49:05,379 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:49:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 01:49:05,386 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:49:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 01:49:05,389 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:49:05] "[36mGET /static/js/projects-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 01:51:58,675 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:51:58] "GET /projects HTTP/1.1" 200 -
+2025-06-14 01:51:58,711 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:51:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 01:51:58,717 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:51:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 01:51:58,723 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:51:58] "[36mGET /static/js/projects-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 01:56:06,317 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:56:06] "GET /projects HTTP/1.1" 200 -
+2025-06-14 01:56:06,377 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:56:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 01:56:06,395 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:56:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 01:56:06,397 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:56:06] "[36mGET /static/js/projects-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 01:56:42,736 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:56:42] "GET /skills HTTP/1.1" 200 -
+2025-06-14 01:56:42,780 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:56:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 01:56:42,808 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:56:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 01:56:42,814 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:56:42] "[36mGET /static/js/skills-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 01:58:34,589 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:58:34] "GET / HTTP/1.1" 200 -
+2025-06-14 01:58:34,635 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:58:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 01:58:34,650 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:58:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 01:58:34,651 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:58:34] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 01:58:40,018 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 01:58:40] "GET /download-resume HTTP/1.1" 200 -
+2025-06-14 02:00:24,356 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:00:24] "GET /projects HTTP/1.1" 200 -
+2025-06-14 02:00:24,405 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:00:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 02:00:24,423 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:00:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 02:00:24,425 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:00:24] "[36mGET /static/js/projects-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 02:00:40,382 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:00:40] "GET / HTTP/1.1" 200 -
+2025-06-14 02:00:40,425 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:00:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 02:00:40,447 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:00:40] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 02:00:40,448 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:00:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 02:01:01,427 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:01:01] "GET /skills HTTP/1.1" 200 -
+2025-06-14 02:01:01,469 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:01:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 02:01:01,481 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:01:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 02:01:01,483 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:01:01] "[36mGET /static/js/skills-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 02:04:43,476 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:04:43] "GET /projects HTTP/1.1" 200 -
+2025-06-14 02:04:43,547 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:04:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 02:04:43,572 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:04:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 02:04:43,573 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:04:43] "[36mGET /static/js/projects-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 02:05:56,227 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:05:56] "GET /experience HTTP/1.1" 200 -
+2025-06-14 02:05:56,288 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:05:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 02:05:56,303 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:05:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 02:05:56,304 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:05:56] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-06-14 02:06:17,734 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:06:17] "GET /education HTTP/1.1" 200 -
+2025-06-14 02:06:17,763 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:06:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 02:06:17,776 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:06:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 02:06:17,777 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:06:17] "[36mGET /static/images/university-logo.jpeg HTTP/1.1[0m" 304 -
+2025-06-14 02:06:37,022 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:06:37] "GET /contact HTTP/1.1" 200 -
+2025-06-14 02:06:37,071 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:06:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 02:06:37,082 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:06:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 02:07:08,543 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:07:08] "GET / HTTP/1.1" 200 -
+2025-06-14 02:07:08,608 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:07:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 02:07:08,638 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:07:08] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 02:07:08,640 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:07:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 02:08:09,886 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-14 02:08:09,894 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-14 02:08:09,893 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-14 02:08:09,895 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-14 02:08:10,734 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 02:08:10,767 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 02:08:10,841 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 02:08:10,841 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 02:08:11,619 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 02:08:11,621 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 02:08:11,625 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 02:08:11,627 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 02:08:11,641 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 02:08:11,641 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 02:08:11,646 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 02:08:11,651 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 02:39:30,682 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-14 02:39:30,684 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-14 02:39:30,684 - werkzeug - INFO -  * Detected change in 'c:\\Users\\LENOVO\\portfolio\\Portfolio\\config.py', reloading
+2025-06-14 02:41:46,389 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-14 02:41:46,390 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 02:41:46,425 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 02:41:46,993 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 02:41:47,013 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 02:41:53,522 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:41:53] "GET / HTTP/1.1" 200 -
+2025-06-14 02:41:53,831 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:41:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 02:41:53,833 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:41:53] "GET /static/images/profile1.jpg HTTP/1.1" 200 -
+2025-06-14 02:41:53,851 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 02:41:53] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-06-14 02:59:53,874 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-14 02:59:53,875 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 02:59:53,903 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 02:59:54,403 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 02:59:54,417 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 03:00:35,245 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:00:35] "GET / HTTP/1.1" 200 -
+2025-06-14 03:00:35,616 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:00:35] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 03:00:35,694 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:00:35] "GET /static/js/background.js HTTP/1.1" 200 -
+2025-06-14 03:00:35,701 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:00:35] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 03:00:35,713 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:00:35] "GET /static/css/background.css HTTP/1.1" 200 -
+2025-06-14 03:00:35,719 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:00:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:00:36,134 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:00:36] "GET /static/images/background1.png HTTP/1.1" 200 -
+2025-06-14 03:12:57,573 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:12:57] "GET / HTTP/1.1" 200 -
+2025-06-14 03:12:57,671 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:12:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:12:57,676 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:12:57] "GET /static/css/background.css HTTP/1.1" 200 -
+2025-06-14 03:12:57,696 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:12:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:12:57,708 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:12:57] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 03:12:57,724 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:12:57] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:12:58,315 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:12:58] "[36mGET /static/images/background1.png HTTP/1.1[0m" 304 -
+2025-06-14 03:13:17,285 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:13:17] "GET /download-resume HTTP/1.1" 200 -
+2025-06-14 03:14:03,391 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:03] "GET / HTTP/1.1" 200 -
+2025-06-14 03:14:03,448 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:14:03,455 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:03] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:14:03,461 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:14:03,463 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:03] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 03:14:03,491 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:03] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:14:03,562 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:03] "GET /static/images/background1.png HTTP/1.1" 200 -
+2025-06-14 03:14:12,062 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:12] "GET /skills HTTP/1.1" 200 -
+2025-06-14 03:14:12,108 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:14:12,123 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:12] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:14:12,125 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:14:12,126 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:12] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:14:12,128 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:12] "GET /static/js/skills-charts.js HTTP/1.1" 200 -
+2025-06-14 03:14:12,153 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:12] "[36mGET /static/images/background1.png HTTP/1.1[0m" 304 -
+2025-06-14 03:14:17,516 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:17] "GET /projects HTTP/1.1" 200 -
+2025-06-14 03:14:17,558 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:14:17,579 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:14:17,579 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:17] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:14:17,581 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:17] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:14:17,594 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:17] "GET /static/js/projects-charts.js HTTP/1.1" 200 -
+2025-06-14 03:14:17,621 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:17] "[36mGET /static/images/background1.png HTTP/1.1[0m" 304 -
+2025-06-14 03:14:21,283 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:21] "GET /experience HTTP/1.1" 200 -
+2025-06-14 03:14:21,332 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:14:21,352 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:14:21,352 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:21] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:14:21,353 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:21] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:14:21,353 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:21] "GET /static/js/experience-timeline.js HTTP/1.1" 200 -
+2025-06-14 03:14:22,880 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\portfolio\\Portfolio\\app.py', reloading
+2025-06-14 03:14:23,687 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 03:14:24,500 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 03:14:24,520 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 03:14:25,388 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:25] "GET / HTTP/1.1" 200 -
+2025-06-14 03:14:25,758 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:25] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:14:25,761 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:14:25,775 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:25] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:14:25,780 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:14:25,788 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:14:25] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 03:15:04,929 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-14 03:15:04,929 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 03:15:04,948 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 03:15:05,448 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 03:15:05,460 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 03:15:07,160 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:15:07] "GET / HTTP/1.1" 200 -
+2025-06-14 03:15:07,518 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:15:07] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:15:07,523 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:15:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:15:07,535 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:15:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:15:07,536 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:15:07] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 03:15:07,541 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:15:07] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:15:07,555 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:15:07] "[36mGET /static/images/background1.png HTTP/1.1[0m" 304 -
+2025-06-14 03:18:41,357 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:18:41] "GET / HTTP/1.1" 200 -
+2025-06-14 03:18:41,417 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:18:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:18:41,433 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:18:41] "GET /static/css/background.css HTTP/1.1" 200 -
+2025-06-14 03:18:41,436 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:18:41] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 03:18:41,441 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:18:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:18:41,452 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:18:41] "GET /static/js/background.js HTTP/1.1" 200 -
+2025-06-14 03:18:41,494 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:18:41] "[36mGET /static/images/background1.png HTTP/1.1[0m" 304 -
+2025-06-14 03:22:04,992 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:04] "GET / HTTP/1.1" 200 -
+2025-06-14 03:22:05,086 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:22:05,096 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:05] "GET /static/css/background.css HTTP/1.1" 200 -
+2025-06-14 03:22:05,102 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:05] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 03:22:05,108 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:22:05,138 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:05] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:22:05,211 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:05] "[36mGET /static/images/background1.png HTTP/1.1[0m" 304 -
+2025-06-14 03:22:10,139 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:10] "GET / HTTP/1.1" 200 -
+2025-06-14 03:22:10,182 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:22:10,200 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:10] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:22:10,207 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:10] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 03:22:10,212 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:22:10,231 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:10] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:22:10,255 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:10] "[36mGET /static/images/background1.png HTTP/1.1[0m" 304 -
+2025-06-14 03:22:14,320 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:14] "GET /skills HTTP/1.1" 200 -
+2025-06-14 03:22:14,372 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:22:14,401 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:14] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:22:14,403 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:22:14,405 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:14] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:22:14,408 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:22:14] "[36mGET /static/js/skills-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 03:28:25,187 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:28:25] "GET /skills HTTP/1.1" 200 -
+2025-06-14 03:28:25,259 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:28:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:28:25,269 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:28:25] "GET /static/css/background.css HTTP/1.1" 200 -
+2025-06-14 03:28:25,273 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:28:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:28:25,283 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:28:25] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:28:25,284 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:28:25] "[36mGET /static/js/skills-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 03:28:25,343 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:28:25] "[36mGET /static/images/background1.png HTTP/1.1[0m" 304 -
+2025-06-14 03:28:30,592 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:28:30] "GET / HTTP/1.1" 200 -
+2025-06-14 03:28:30,651 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:28:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:28:30,664 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:28:30] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:28:30,666 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:28:30] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 03:28:30,671 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:28:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:28:30,687 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:28:30] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:40:40,289 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-14 03:40:40,291 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 03:40:40,309 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 03:40:40,804 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 03:40:40,821 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 03:40:43,880 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:40:43] "GET / HTTP/1.1" 200 -
+2025-06-14 03:40:44,242 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:40:44] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:40:44,244 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:40:44] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 03:40:44,260 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:40:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:40:44,265 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:40:44] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:40:44,278 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:40:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:40:44,303 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:40:44] "[36mGET /static/images/background1.png HTTP/1.1[0m" 304 -
+2025-06-14 03:46:10,931 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:10] "GET / HTTP/1.1" 200 -
+2025-06-14 03:46:11,002 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:46:11,034 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:11] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 03:46:11,035 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:11] "GET /static/css/background.css HTTP/1.1" 200 -
+2025-06-14 03:46:11,037 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:46:11,151 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:11] "GET /static/js/background.js HTTP/1.1" 200 -
+2025-06-14 03:46:11,168 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:11] "[36mGET /static/images/background1.png HTTP/1.1[0m" 304 -
+2025-06-14 03:46:17,316 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:17] "GET / HTTP/1.1" 200 -
+2025-06-14 03:46:17,380 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:17] "GET /static/css/background.css HTTP/1.1" 200 -
+2025-06-14 03:46:17,380 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:17] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 03:46:17,382 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:17] "GET /static/images/profile1.jpg HTTP/1.1" 200 -
+2025-06-14 03:46:17,413 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:17] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-06-14 03:46:17,418 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:17] "GET /static/js/background.js HTTP/1.1" 200 -
+2025-06-14 03:46:17,486 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:17] "GET /static/images/background1.png HTTP/1.1" 200 -
+2025-06-14 03:46:17,806 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-14 03:46:21,300 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:21] "GET /skills HTTP/1.1" 200 -
+2025-06-14 03:46:21,336 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:46:21,350 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:21] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:46:21,350 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:21] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:46:21,350 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:46:21,351 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:21] "[36mGET /static/js/skills-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 03:46:23,930 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:23] "GET /contact HTTP/1.1" 200 -
+2025-06-14 03:46:23,956 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:46:23,971 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:23] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:46:23,972 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:46:23,976 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:23] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:46:26,915 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:26] "GET / HTTP/1.1" 200 -
+2025-06-14 03:46:26,954 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:46:26,972 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:26] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:46:26,977 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:26] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 03:46:26,981 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:46:27,012 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:27] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:46:30,064 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:30] "GET /projects HTTP/1.1" 200 -
+2025-06-14 03:46:30,106 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:46:30,126 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:30] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:46:30,128 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:46:30,128 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:30] "[36mGET /static/js/projects-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 03:46:30,129 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:30] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:46:36,330 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:36] "GET /experience HTTP/1.1" 200 -
+2025-06-14 03:46:36,361 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:46:36,380 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:46:36,381 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:36] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-06-14 03:46:36,382 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:36] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:46:36,383 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:46:36] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:48:16,977 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:16] "GET /experience HTTP/1.1" 200 -
+2025-06-14 03:48:17,057 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:48:17,079 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:17] "GET /static/css/background.css HTTP/1.1" 200 -
+2025-06-14 03:48:17,082 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:48:17,091 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:17] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:48:17,093 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:17] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-06-14 03:48:17,143 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:17] "[36mGET /static/images/background1.png HTTP/1.1[0m" 304 -
+2025-06-14 03:48:38,178 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:38] "GET /experience HTTP/1.1" 200 -
+2025-06-14 03:48:38,203 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:48:38,225 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:48:38,241 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:38] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:48:38,244 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:38] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-06-14 03:48:38,266 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:38] "GET /static/css/background.css HTTP/1.1" 200 -
+2025-06-14 03:48:38,291 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:38] "[36mGET /static/images/background1.png HTTP/1.1[0m" 304 -
+2025-06-14 03:48:55,655 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:55] "GET / HTTP/1.1" 200 -
+2025-06-14 03:48:55,688 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:48:55,695 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:55] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:48:55,705 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:48:55,706 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:55] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 03:48:55,724 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:48:55] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:49:01,056 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:01] "GET / HTTP/1.1" 200 -
+2025-06-14 03:49:01,076 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:49:01,087 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:01] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:49:01,091 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:01] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 03:49:01,094 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:49:01,110 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:01] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:49:03,514 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:03] "GET /skills HTTP/1.1" 200 -
+2025-06-14 03:49:03,546 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:49:03,568 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:03] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:49:03,570 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:49:03,574 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:03] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:49:03,577 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:03] "[36mGET /static/js/skills-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 03:49:06,831 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:06] "GET /experience HTTP/1.1" 200 -
+2025-06-14 03:49:06,863 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:49:06,882 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:49:06,885 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:06] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:49:06,888 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:06] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:49:06,890 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:06] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-06-14 03:49:08,420 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:08] "GET /contact HTTP/1.1" 200 -
+2025-06-14 03:49:08,445 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 03:49:08,463 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:08] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 03:49:08,464 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 03:49:08,468 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:49:08] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 03:50:37,809 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:50:37] "GET /contact HTTP/1.1" 200 -
+2025-06-14 03:50:37,879 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:50:37] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 03:50:37,885 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:50:37] "GET /static/css/background.css HTTP/1.1" 200 -
+2025-06-14 03:50:37,885 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:50:37] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-06-14 03:50:37,897 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:50:37] "GET /static/js/background.js HTTP/1.1" 200 -
+2025-06-14 03:50:37,969 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:50:37] "GET /static/images/background1.png HTTP/1.1" 200 -
+2025-06-14 03:50:38,782 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 03:50:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-14 04:10:13,131 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:10:13] "GET /contact HTTP/1.1" 200 -
+2025-06-14 04:10:13,197 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:10:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:10:13,205 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:10:13] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:10:13,207 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:10:13] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:10:13,207 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:10:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:10:13,242 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:10:13] "[36mGET /static/images/background1.png HTTP/1.1[0m" 304 -
+2025-06-14 04:10:15,142 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:10:15] "GET / HTTP/1.1" 200 -
+2025-06-14 04:10:15,173 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:10:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:10:15,189 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:10:15] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 04:10:15,192 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:10:15] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:10:15,201 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:10:15] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:10:15,204 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:10:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:10:15,253 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:10:15] "[36mGET /static/images/background1.png HTTP/1.1[0m" 304 -
+2025-06-14 04:13:47,762 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:13:47] "GET / HTTP/1.1" 200 -
+2025-06-14 04:13:47,802 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:13:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:13:47,820 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:13:47] "GET /static/css/background.css HTTP/1.1" 200 -
+2025-06-14 04:13:47,828 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:13:47] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 04:13:47,828 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:13:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:13:47,830 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:13:47] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:13:47,874 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:13:47] "[36mGET /static/images/background1.png HTTP/1.1[0m" 304 -
+2025-06-14 04:13:52,758 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:13:52] "GET / HTTP/1.1" 200 -
+2025-06-14 04:13:52,785 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:13:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:13:52,797 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:13:52] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:13:52,808 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:13:52] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 04:13:52,809 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:13:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:13:52,826 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:13:52] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:13:52,842 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:13:52] "[36mGET /static/images/background1.png HTTP/1.1[0m" 304 -
+2025-06-14 04:14:17,426 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:17] "GET /skills HTTP/1.1" 200 -
+2025-06-14 04:14:17,484 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:14:17,495 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:17] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:14:17,506 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:14:17,523 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:17] "[36mGET /static/js/skills-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 04:14:17,527 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:17] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:14:21,592 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:21] "GET /projects HTTP/1.1" 200 -
+2025-06-14 04:14:21,628 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:14:21,648 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:21] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:14:21,655 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:14:21,658 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:21] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:14:21,672 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:21] "[36mGET /static/js/projects-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 04:14:26,036 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:26] "GET /experience HTTP/1.1" 200 -
+2025-06-14 04:14:26,086 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:14:26,102 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:26] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:14:26,107 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:14:26,112 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:26] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:14:26,137 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:26] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-06-14 04:14:30,998 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:30] "GET / HTTP/1.1" 200 -
+2025-06-14 04:14:31,032 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:14:31,043 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:31] "GET /static/css/background.css HTTP/1.1" 200 -
+2025-06-14 04:14:31,046 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:31] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 04:14:31,048 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:14:31,076 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:14:31] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:15:18,501 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:18] "GET / HTTP/1.1" 200 -
+2025-06-14 04:15:18,561 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:15:18,568 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:18] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:15:18,576 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:18] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 04:15:18,581 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:15:18,583 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:18] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:15:20,672 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:20] "GET / HTTP/1.1" 200 -
+2025-06-14 04:15:20,703 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:15:20,711 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:20] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:15:20,726 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:20] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 04:15:20,732 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:15:20,732 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:20] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:15:22,538 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:22] "GET /skills HTTP/1.1" 200 -
+2025-06-14 04:15:22,576 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:15:22,598 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:22] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:15:22,598 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:22] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:15:22,599 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:15:22,600 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:15:22] "[36mGET /static/js/skills-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 04:17:12,022 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:12] "GET /skills HTTP/1.1" 200 -
+2025-06-14 04:17:12,104 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:17:12,114 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:17:12,114 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:12] "GET /static/css/background.css HTTP/1.1" 200 -
+2025-06-14 04:17:12,119 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:12] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:17:12,123 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:12] "[36mGET /static/js/skills-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 04:17:14,810 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:14] "GET / HTTP/1.1" 200 -
+2025-06-14 04:17:14,836 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:17:14,853 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:14] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:17:14,857 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:14] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 04:17:14,857 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:17:14,860 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:14] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:17:26,657 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-14 04:17:26,658 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 04:17:26,682 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 04:17:27,094 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 04:17:27,105 - werkzeug - INFO -  * Debugger PIN: 125-907-095
+2025-06-14 04:17:34,425 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:34] "GET / HTTP/1.1" 200 -
+2025-06-14 04:17:34,771 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:34] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 04:17:34,786 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:34] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:17:34,790 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:17:34,797 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:34] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:17:34,799 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:17:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:20:56,092 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:20:56] "GET / HTTP/1.1" 200 -
+2025-06-14 04:20:56,140 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:20:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:20:56,156 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:20:56] "[36mGET /static/images/profile1.jpg HTTP/1.1[0m" 304 -
+2025-06-14 04:20:56,156 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:20:56] "GET /static/css/background.css HTTP/1.1" 200 -
+2025-06-14 04:20:56,157 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:20:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:20:56,178 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:20:56] "GET /static/js/background.js HTTP/1.1" 200 -
+2025-06-14 04:21:25,088 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:21:25] "GET /skills HTTP/1.1" 200 -
+2025-06-14 04:21:25,143 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:21:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:21:25,165 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:21:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:21:25,165 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:21:25] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:21:25,166 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:21:25] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:21:25,172 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:21:25] "[36mGET /static/js/skills-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 04:21:38,897 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:21:38] "GET /projects HTTP/1.1" 200 -
+2025-06-14 04:21:38,929 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:21:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:21:38,945 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:21:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:21:38,947 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:21:38] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:21:38,948 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:21:38] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:21:38,951 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:21:38] "[36mGET /static/js/projects-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 04:22:26,672 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:22:26] "GET /experience HTTP/1.1" 200 -
+2025-06-14 04:22:26,728 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:22:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:22:26,760 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:22:26] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:22:26,761 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:22:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:22:26,766 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:22:26] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-06-14 04:22:26,768 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:22:26] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:24:31,087 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:24:31] "GET /experience HTTP/1.1" 200 -
+2025-06-14 04:24:31,146 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:24:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:24:31,174 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:24:31] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:24:31,175 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:24:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:24:31,180 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:24:31] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:24:31,182 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:24:31] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-06-14 04:24:35,433 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:24:35] "GET /projects HTTP/1.1" 200 -
+2025-06-14 04:24:35,467 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:24:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:24:35,487 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:24:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:24:35,488 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:24:35] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:24:35,489 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:24:35] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:24:35,491 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:24:35] "[36mGET /static/js/projects-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 04:26:39,785 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:39] "GET /projects HTTP/1.1" 200 -
+2025-06-14 04:26:39,837 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 04:26:39,862 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:39] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:26:39,864 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:26:39,880 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:39] "[36mGET /static/js/projects-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 04:26:39,881 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:39] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:26:42,823 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:42] "GET /experience HTTP/1.1" 200 -
+2025-06-14 04:26:42,873 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:26:42,893 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:26:42,894 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:42] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:26:42,898 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:42] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:26:42,906 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:42] "[36mGET /static/js/experience-timeline.js HTTP/1.1[0m" 304 -
+2025-06-14 04:26:56,841 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:56] "GET /projects HTTP/1.1" 200 -
+2025-06-14 04:26:56,876 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:26:56,894 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:56] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:26:56,895 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:26:56,897 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:56] "[36mGET /static/js/projects-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 04:26:56,897 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:26:56] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:31:34,656 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:31:34] "GET /projects HTTP/1.1" 200 -
+2025-06-14 04:31:34,726 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:31:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:31:34,734 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:31:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:31:34,750 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:31:34] "[36mGET /static/js/projects-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 04:31:34,751 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:31:34] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:31:34,756 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:31:34] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:35:02,489 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:35:02] "GET /projects HTTP/1.1" 200 -
+2025-06-14 04:35:02,525 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:35:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:35:02,546 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:35:02] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:35:02,549 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:35:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:35:02,553 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:35:02] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:35:02,563 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:35:02] "[36mGET /static/js/projects-charts.js HTTP/1.1[0m" 304 -
+2025-06-14 04:35:09,263 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:35:09] "GET /skills HTTP/1.1" 200 -
+2025-06-14 04:35:09,292 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:35:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 04:35:09,304 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:35:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-06-14 04:35:09,305 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:35:09] "[36mGET /static/css/background.css HTTP/1.1[0m" 304 -
+2025-06-14 04:35:09,311 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:35:09] "[36mGET /static/js/background.js HTTP/1.1[0m" 304 -
+2025-06-14 04:35:09,331 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 04:35:09] "[36mGET /static/js/skills-charts.js HTTP/1.1[0m" 304 -

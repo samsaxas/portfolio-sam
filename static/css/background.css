@@ -1,0 +1,74 @@
+/* Animated Background Styles */
+body {
+    position: relative;
+    color: #fff;
+    background-color: #1a2530;
+}
+
+/* Background wrapper */
+.bg-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+/* Particles container */
+.bg-particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+/* Individual particles */
+.particle {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    animation: float var(--duration) ease-in infinite;
+    opacity: var(--opacity);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.9);
+}
+
+/* Floating animation */
+@keyframes float {
+    0% {
+        transform: translateY(0) translateX(0);
+        opacity: 0;
+    }
+    10% {
+        opacity: var(--opacity);
+    }
+    90% {
+        opacity: var(--opacity);
+    }
+    100% {
+        transform: translateY(-100vh) translateX(var(--drift));
+        opacity: 0;
+    }
+}
+
+/* Make content readable */
+.card {
+    background-color: rgba(26, 37, 48, 0.7);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.container {
+    position: relative;
+    z-index: 10;
+}
+
+/* Fix for content shifting */
+main.mt-5.pt-5 {
+    margin-top: 0 !important;
+    padding-top: 5rem !important;
+}

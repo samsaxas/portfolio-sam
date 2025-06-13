@@ -1,0 +1,293 @@
+{% extends 'base.html' %}
+
+{% block title %}Skills - Data Science Student Portfolio{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <h1 class="section-title text-center mb-5">My Skills & Expertise</h1>
+
+    <!-- Programming Languages -->
+    <section class="mb-5">
+        <h2 class="mb-4">Programming Languages</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="skill-item">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-name">Python</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="skill-item">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-name">SQL</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="skill-item">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-name">R</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="skill-item">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-name">MongoDB</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Analysis & Visualization -->
+    <section class="mb-5">
+        <h2 class="mb-4">Data Analysis & Visualization</h2>
+
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="chart-container p-4 bg-white rounded shadow-sm">
+                    <canvas id="dataSkillsChart" width="400" height="300"></canvas>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="skill-details">
+                    <div class="skill-item mb-3">
+                        <h5 class="skill-name text-primary">Pandas & NumPy</h5>
+                        <p>Expert proficiency in data manipulation, cleaning, and analysis using Python's primary data analysis libraries.</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <h5 class="skill-name text-primary">Matplotlib & Seaborn</h5>
+                        <p>Advanced skills in creating insightful data visualizations, from basic plots to complex multi-dimensional visualizations.</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="skill-item">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-name">PowerBI</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="skill-item">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-name">Tableau</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="skill-item">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-name">Streamlit</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="skill-item">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-name">Excel Advanced Analytics</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Machine Learning -->
+    <section class="mb-5">
+        <h2 class="mb-4">Machine Learning & AI</h2>
+
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="chart-container p-4 bg-white rounded shadow-sm">
+                    <canvas id="mlSkillsChart" width="400" height="300"></canvas>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="skill-details">
+                    <div class="skill-item mb-3">
+                        <h5 class="skill-name text-info">Scikit-learn</h5>
+                        <p>Extensive experience with machine learning algorithms for classification, regression, clustering, and dimensionality reduction.</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <h5 class="skill-name text-info">TensorFlow & Deep Learning</h5>
+                        <p>Proficient in building and training neural networks for various applications including image recognition and NLP.</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="skill-item">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-name">PyTorch</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="skill-item">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-name">Computer Vision (OpenCV)</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="skill-item">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-name">Natural Language Processing</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Big Data & Cloud -->
+    <section class="mb-5">
+        <h2 class="mb-4">Big Data & Cloud Technologies</h2>
+
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="chart-container p-4 bg-white rounded shadow-sm">
+                    <canvas id="bigDataSkillsChart" width="400" height="300"></canvas>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="skill-details">
+                    <div class="skill-item mb-3">
+                        <h5 class="skill-name text-success">SQL Databases</h5>
+                        <p>Strong proficiency in database design, complex queries, and performance optimization across various SQL platforms.</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <h5 class="skill-name text-success">NoSQL & Cloud Solutions</h5>
+                        <p>Experience with document-based databases and cloud platforms for scalable data solutions.</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="skill-item">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-name">AWS</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="skill-item">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-name">Data Pipelines</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soft Skills -->
+    <section>
+        <h2 class="mb-4">Soft Skills</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item">Storytelling</li>
+                    <li class="list-group-item">Team Collaboration</li>
+                    <li class="list-group-item">Attention to Detail</li>
+                    <li class="list-group-item">Adaptability</li>
+                    
+                    
+                    
+                    
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item">Problem Solving</li>
+                    <li class="list-group-item">Project Management</li>
+                    <li class="list-group-item">Time Management</li>
+                    <li class="list-group-item">Communication</li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/skills-charts.js') }}"></script>
+{% endblock %}
