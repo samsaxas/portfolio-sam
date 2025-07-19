@@ -10,7 +10,5 @@ A professional portfolio website built with Flask to showcase data analysis skil
 - Resume download option
 - Project showcase
 - Skills and experience sections
-## Setup and Installation
 
-1. Clone the repository
-2. Install dependencies:
+https://portfolio-sam-962g.onrender.com/
