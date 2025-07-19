@@ -1,6 +1,6 @@
-# Data Analyst Portfolio
+# Data Science Portfolio
 
-A professional portfolio website built with Flask to showcase data analysis skills, projects, and experience.
+A professional portfolio website built with Flask to showcase data skills, projects, and experience.
 
 ## Features
 
